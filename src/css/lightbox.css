@@ -56,10 +56,6 @@ body.lb-disable-scrolling {
   clear: both;
 }
 
-.lb-container {
-  padding: 4px;
-}
-
 .lb-loader {
   position: absolute;
   top: 43%;
@@ -203,4 +199,9 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+/* style */
+.h-p-4 {
+  padding: 4px;
 }
