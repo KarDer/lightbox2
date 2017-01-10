@@ -317,7 +317,7 @@
     this.$lightbox.find('.lb-image').fadeIn('slow');
 
     if (this.options.borderAroundImage) {
-      $container.addClass('h-p-4');
+      $('#lightbox').find('.lb-container').addClass('h-p-4');
     }
 
     this.updateNav();
