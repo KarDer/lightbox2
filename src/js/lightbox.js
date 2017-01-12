@@ -49,8 +49,7 @@
     resizeDuration: 700,
     showImageNumberLabel: true,
     wrapAround: false,
-    disableScrolling: false,
-    borderAroundImage: true
+    disableScrolling: false
   };
 
   Lightbox.prototype.option = function(options) {
@@ -315,10 +314,6 @@
   Lightbox.prototype.showImage = function() {
     this.$lightbox.find('.lb-loader').stop(true).hide();
     this.$lightbox.find('.lb-image').fadeIn('slow');
-
-    if (this.options.borderAroundImage) {
-      $('#lightbox').find('.lb-container').addClass('h-p-4');
-    }
 
     this.updateNav();
     this.updateDetails();
